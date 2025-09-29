@@ -1,0 +1,64 @@
+name: depo_barkod_app
+description: Depo lokasyon barkod sistemi için bir Flutter uygulaması.
+publish_to: 'none' # The default to prevent accidental publishing.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Flutter 3.x ve Dart 3.x uyumluluğu
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Uygulamada barkod oluşturmak için kullanılan paket
+  barcode_widget: ^2.0.4 # En son kararlı sürümü kontrol etmeyi unutmayın
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. Add the following section to enable
+  # lints, and adjust the rules in the `analysis_options.yaml` file to
+  # your liking.
+  flutter_lints: ^3.0.0
+  
+  # Logo oluşturmak için kullanılan paket
+  flutter_launcher_icons: ^0.13.1
+
+# Logo konfigürasyonu
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+  image_path: "assets/logo.jpg"  # JPG formatında logo
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is included with
+  # your application, so that you can use the icons in the material Icons class.
+  uses-material-design: true
+
+  # Assets klasörünü tanımla
+  assets:
+    - assets/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # For details regarding fonts from package dependencies, see
+  # https://flutter.dev/custom-fonts/#from-packages
