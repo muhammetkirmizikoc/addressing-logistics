@@ -3,7 +3,7 @@
 
 
 # Depo Barkod Sistemi 📦
-<img width="446" height="932" alt="Ekran Resmi 2025-09-29 ÖS 11 43 53" src="https://github.com/user-attachments/assets/6c821e0b-8a80-485a-9bec-0d01755044e4" />
+<img  center width="446" height="932" alt="Ekran Resmi 2025-09-29 ÖS 11 43 53" src="https://github.com/user-attachments/assets/6c821e0b-8a80-485a-9bec-0d01755044e4" />
 
 
 Flutter ile geliştirilmiş modern ve kullanıcı dostu depo lokasyon barkod üretici uygulaması.
